@@ -1,3 +1,15 @@
+/* ** Formulaire de connexion.
+ * Appel un callback utilisateur pour réellement se connecter.
+ *
+ * TODO :
+ * - Ajout d'un fonction permettant d'appeler le callback utilisateur pour se connecter lors du clic sur "connexion".
+ * - Ajout d'un bouton "retour" (vers l'accueil ? autre ?)
+ * - Ajout d'un toggle "Remember me"
+ * - Ajout d'un bouton voir/cacher le mot de passe.
+ * - Ajout des liens "Mot de passe oublié" et "S'inscrire"
+ * - Implémentation de composants contrôlés sur les inputs.
+ */
+
 import React from 'react';
 
 import css from './login.module.css';
