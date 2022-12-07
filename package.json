@@ -1,6 +1,7 @@
 {
-  "name": "react",
-  "version": "0.0.0",
+  "name": "login-me",
+  "description": "A simple login form with React.",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
     "react": "^18.1.0",
