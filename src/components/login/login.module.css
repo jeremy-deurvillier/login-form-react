@@ -1,0 +1,43 @@
+.loginForm {
+  color: #fff;
+  background: #000;
+  max-width: 300px;
+  padding: 10px;
+}
+
+.loginForm > h1 {
+  text-align: center;
+  margin: 5px 0 20px 0;
+}
+
+label,
+input {
+  display: block;
+  margin: 10px;
+}
+
+label {
+  font-size: 0.85em;
+  text-transform: uppercase;
+  color: #808080;
+}
+
+input {
+  color: #fff;
+  background: transparent;
+  width: 268px; /* 280px - (padding + border-width) */
+  border: 0 solid transparent;
+  border-bottom: 1px solid #fbbf24;
+  padding: 5px;
+}
+
+button {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+  background: linear-gradient(#fbbf24, #fcd34d);
+  min-width: 280px;
+  border: 1px solid transparent;
+  margin: 20px 10px;
+  padding: 10px;
+}

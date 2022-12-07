@@ -4,10 +4,10 @@ import css from './login.module.css';
 
 export default function Login() {
   return (
-    <div>
+    <div className={css.loginForm}>
       <h1>Connexion</h1>
-      <form action="#" method="POST">
-        <div className={css.formContent}>
+      <div className={css.formContent}>
+        <form action="#" method="POST">
           <div className={css.loginBlock}>
             <label htmlFor="login">Login :</label>
             <input type="text" id="login" name="login" />
@@ -19,8 +19,8 @@ export default function Login() {
           <div className={css.submitBlock}>
             <button type="button">Connexion</button>
           </div>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
   );
 }
